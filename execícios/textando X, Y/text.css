@@ -1,0 +1,10 @@
+#reporter {
+    position: fixed;
+}
+
+#highDiv {
+    height: 200vh;
+    margin-top: 30vh;
+    width: 80vh;
+    background: linear-gradient(#fcc, #558);
+}

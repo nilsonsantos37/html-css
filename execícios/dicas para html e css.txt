@@ -1,0 +1,4 @@
+Quando for inserir algun testo e depois querer adicionar as tags basta selecionar o texto onde sera adicionadoa stags e precionar as teclas(CTRL, SHIFT e a letra P).
+quando abrir a aba presione a tecla (abb), para aparecer o enunciado:
+   EMMet: quebrar linha com abreviação
+   EMMet: wrap with abbreviation depois clique na tecla que vc deseja como pr exemplo: I, p, a, h etc...
