@@ -9,12 +9,15 @@
 }
 
 html, body {
-   width: 100vw;
-   height: 100vh;
-   background-color: #233eff;
+   width: 100vw;  /*largura da Janela*/
+   height: 100vh;/* altura da Janela*/
+   background-color: #233eff; /*Cor de Fundo */
+   background-size: contain;
+   background-repeat: no-repeat;
 }
 
 h1{
-    color: white;
-    text-shadow: 2px 2px 0px #1526a7;
+    color: white; /*cor da letra*/
+    text-shadow: 2px 2px 0px #1526a7;  /*sombra do texto  (2px 2px 0px é o deslocamento lateral da sombra*/
+    padding: 10px;
 }
