@@ -4,12 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>meu Site</h1>
-        <menu>
+        <span id="burger" class="material-icons" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Cursos</a></li>
                 <li><a href="#">Sobre</a></li>
@@ -30,7 +34,7 @@
                 Este artigo visa fazer uma introdução de forma simples e não extremamente formal a esta linguagem de scripting que vêm se firmando como uma das bases de toda aplicação web. Você já deve ter ouvido falar neste nome, mas não faz ideia de o que é ou para que sirva, correto? Então este artigo é feito para que você entenda de forma simples como funciona e como fazer seu primeiro script nesta linguagem.
             </p>
 
-<h2>Relacionado: JavaScript Replace</h2>
+<h3>Relacionado: JavaScript Replace</h3>
 
 <p>Em primeiro lugar, o termo JavaScript nada tem haver com a linguagem de programação Java, esta é uma grande confusão feita pela comunidade de desenvolvimento web, principalmente por quem nunca trabalhou com a tecnologia, mas vamos pular contextos históricos e discursos sobre como surgiu o nome, vamos ao que importa.</p>
 
@@ -63,5 +67,13 @@ Mas qual o motivo de saber isso? Muito simples, o fato de o seu computador receb
 
         </article>
     </main>
+    <script>
+       function clickMenu() {  // if significa "se"
+        if(itens.style.display == 'block') {   //sinal de igual duplo significa "igual"
+           itens.style.display = 'none'  // sinal de igual sozinho significa "recebe"
+        } else{  // else significa "se não"
+            itens.style.display = 'block'        }
+    }
+    </script>
 </body>
 </html>
