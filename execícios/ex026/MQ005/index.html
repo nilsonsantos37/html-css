@@ -6,11 +6,12 @@
     <title>media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>meu Site</h1>
-        <span id="burger" class="material-icons" onclick="clickMenu()">
+        <span id="burguer" class="material-icons" onclick="clickMenu()">
             menu
             </span>
         <menu id="itens">
@@ -68,6 +69,14 @@ Mas qual o motivo de saber isso? Muito simples, o fato de o seu computador receb
         </article>
     </main>
     <script>
+        function mudouTamanho() {
+         if (window.innerWidth >= 768) {
+            itens.style.display = 'block'
+         } else {
+            itens.style.display = 'none'
+         }
+        }
+
        function clickMenu() {  // if significa "se"
         if(itens.style.display == 'block') {   //sinal de igual duplo significa "igual"
            itens.style.display = 'none'  // sinal de igual sozinho significa "recebe"
