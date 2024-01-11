@@ -25,4 +25,8 @@ Grande Tela: acima de 1200px
     main {
         width: 768px;
     }
+    
+    img {
+        width: 768px;
+    }
 }
